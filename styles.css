@@ -1,0 +1,641 @@
+@font-face {
+    font-family: 'TR Arial Bold';
+    src: local('TR Arial Bold'), url('Fonts/TR Arial Bold/TR Arial Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+body{
+    margin-top: 6%;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-family: Arial;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.QWERT{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;     
+}
+
+.QWERT img{
+    max-width: 30%;
+    max-height: auto; 
+}
+
+
+.QWERT2{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;     
+}
+
+.QWERT2 img{
+    max-width: 30%;
+    max-height: auto; 
+}
+
+
+.LesbosVase{
+    margin-top: 6%;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-family: Arial;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.Experimente{
+    margin-top: 6%;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-family: Arial;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-right: 4%;
+}
+
+.Item{
+    font-size: 14px;
+}
+
+.PlusMen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20%;
+
+}
+.ItemNAME{
+    font-size: 20px;
+    font-family: "TR Arial Bold";
+}
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 6%;
+    margin-top: 12%;
+    margin-right:6%; 
+    margin-left: 6%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;}
+
+p{
+font-size: 12px;}
+
+
+
+
+
+
+
+.ItemProjekt1{
+    font-size: 16px;
+    display: center;
+}
+
+
+.Projekt_Angaben{
+    margin-top: 0.5%;
+}
+
+.ItemTitle{
+    font-size: 14px;
+    font-family: "TR Arial Bold";
+}
+
+.Ursprungs_Container{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Ursprungs_Container0{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.Item_Container img {
+    max-width: 30%;
+    max-height: auto; 
+}
+
+
+
+
+
+.Auflistung_Senkrecht{
+    width: 40%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Auflistung_Senkrecht img{
+    max-width: 100%;
+    max-height: auto;
+}
+
+.Image_Container_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Projekt_1_Beschreibung_Text{
+    margin-top: 2%;
+}
+
+
+.Lesbos_Bild{
+    max-width: 100%;
+    max-height: auto;
+}
+
+.INTRO_Projekt_3{
+    margin-top: 4%;
+}
+
+.INTRO_Projekt_2{
+    margin-top: 4%;
+}
+
+
+.Projekt_Waagrecht{
+    margin-top:4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+.Projekt_Waagrecht img{ 
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    max-width: 49.5%;
+   min-width: auto;
+}
+
+.Projekt_Waagrecht_2 img{
+    max-width: 100%;
+    max-height: auto;
+}
+
+.Projekt_Waagrecht_3 img{
+     max-width: 100%;
+    max-height: auto;
+}
+
+
+.Projekt_Seite {
+    margin-top: 2%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+.Prozess_Gallerie{
+    margin-top:4%;
+    margin-bottom: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Seitenende{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Seitenende img{
+    max-width: 100%;
+    max-height: auto;
+}
+
+.Gallerie_Waagrecht{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Gallerie_Waagrecht img{
+    padding-top: 1%;
+
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    max-width: 49.5%;
+    max-height: auto;
+}
+
+
+
+
+
+
+
+.Item_Container_ProjektSeite {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Item_Container_ProjektSeite img {
+    max-width: 25%;
+    max-height: auto;
+}
+
+
+.Item_Container01  {
+    margin-top: 2%;
+    max-width: 25%;
+    max-height: auto; 
+}
+
+.Mini_Container{
+    margin-left: 4%;
+    margin-right: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.Navigation1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+
+
+
+.TEXT{
+    font-size: 12px;
+    margin-top: 30%;
+}
+
+.Senke{
+    margin-top: 2%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Senke img{
+    max-width: 100%;
+max-height: auto;
+}
+
+
+
+
+
+
+
+.Projekt_1_Beschreibung{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.Projekt_1_Beschreibung2{
+    margin-top: 2%;
+    margin-bottom: 2%;
+   
+}
+
+.Projekt_1_Beschreibung3{
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+
+
+
+.Ursprungs_Container{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.Ursprungs_Container2{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.Ursprungs_Container3{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Bildergallerie {
+    margin-top: 2%;
+    margin-left: 14%;
+    margin-right: 14%;
+}
+
+.Waagrecht {
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Bildergallerie img {
+    max-width: 80%;
+    height: auto;
+    /* Füge hier weitere allgemeine Stile für die Bilder hinzu */
+}
+
+.Bildergallerie img {
+    filter: grayscale(100%);
+
+    /* Weitere Stile für Bilder in BOX1 */
+    /* Optional: für einen sanften Übergang */
+}
+
+.Bildergallerie img:hover {
+    filter: grayscale(0%);
+
+    /* Weitere Stile für Bilder in BOX1 */
+    /* Optional: für einen sanften Übergang */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media only screen and (max-width: 767px) {
+        body {
+            margin-top: 8%;
+            margin-left: 4%;
+            margin-right: 4%;
+            background-color: rgb(255, 255, 255); /* Korrektur hier */
+            display: flex;
+            flex-direction: column;
+        }
+
+        .Navigation1{
+            display: none;
+        }
+
+        header{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        
+        .QWERT{
+            width: 70%;
+            margin-top: 35%;
+            display: flex;
+            flex-direction: column;}
+        
+        .QWERT img{
+            max-width: 100%;
+            max-height: auto; 
+        }
+        
+        
+        .QWERT2{
+            width: 70%;
+            margin-top: 10%;
+            display: flex;
+            flex-direction: column;  
+        }
+        
+        .QWERT2 img{
+            max-width: 100%;
+            max-height: auto; 
+        }
+
+        .Item{
+            padding: 2px;
+            font-size: 12px;
+        }
+
+
+
+        
+        .PlusMen{
+            width: 30%;
+        
+        }
+        .ItemNAME{
+            font-size: 28px;
+            font-family: "TR Arial Bold";
+        }
+
+        p{
+            font-size: 10px;}
+            
+        .Mini_Container{
+                margin-left: 2%;      }
+
+        .TEXT{
+            font-size: 10px;
+            margin-top: 2%;
+        }
+
+        .Experimente{
+            margin-top: 8%;
+            margin-left: 4%;
+            margin-right: 4%;
+        }
+
+        .Bildergallerie{
+            width: 70%;
+            margin-top: 10%;
+        }
+
+        .Bildergallerie img {
+            max-width: 100%;
+            height: auto;
+            /* Füge hier weitere allgemeine Stile für die Bilder hinzu */
+        }
+        
+
+
+        .LesbosVase{
+            margin-top: 8%;
+            margin-left: 4%;
+            margin-right: 4%;
+            background-color: rgb(255, 255, 255); /* Korrektur hier */
+        }
+    
+
+
+       
+
+        .ItemProjekt1{
+            font-size: 12px;
+        }
+
+       
+
+
+
+
+
+        .Auflistung_Senkrecht{
+            width: 70%;
+            margin-top: 12%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .Auflistung_Senkrecht img{
+            max-width: 100%;
+            max-height: auto;
+        }
+
+        .Projekt_1_Beschreibung2{
+            width: 100%;
+        }
+        
+        .Projekt_1_Beschreibung3{
+            width: 100%;
+        }
+
+        .Projekt_1_Beschreibung{
+            margin-top: 2.5%;
+            margin-bottom: 2%;
+            width: 100%;
+        }
+
+        .Projekt_1_Beschreibung_Text{
+            font-size: 12px;
+        }
+
+
+        .Projekt_Waagrecht{
+        margin-top:4%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .Projekt_Waagrecht img{ 
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+        max-width: 49.5%;
+        min-width: auto;
+    }
+
+ 
+
+
+
+        
+
+        .Gallerie_Waagrecht{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        
+
+
+        .Gallerie_Waagrecht img{
+            max-width: 49.5%;
+            max-height: auto;
+        }
+
+
+       
+        
+        
+    }
+    
